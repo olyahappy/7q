@@ -4,7 +4,7 @@
 <html>
  <head>
   <title> Program for factorial </title>
-  <script type="text/javascript">
+  <script type="text/javascript">                                                                       
 
 
 function factorial(x) 
@@ -74,9 +74,21 @@ console.log(myFunction("a3b3"));
 </script>
 
 6. Given arry of integers, return if a pair of elements sum to an element in the array(false othervise for example, [1,2,3]=>true  [-2,15,5]=>false)?
-<script>// i didnt understand the task</script>
+<script>
+Function arry (arr){
+for (var i=0; ,arr.length; i++) {
+  for (var j=i+1; j,arr.length;j++){
+    if(arr<indexOf(arr[i]+arr[i].-1)){
+      return true;
+    }
+  }
+}
+return false;
+}
+console.log(array([2,2,9]));
 
 
+</script>
 7. Write js program for repeating a sring?('abc,3')
 
 
